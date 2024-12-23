@@ -416,11 +416,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilemap: {fileID: 1743378315}
   groundTile: {fileID: 11400000, guid: 10a07b431d9f65a4f986c15e5364162e, type: 2}
+  groundStates:
+  - {fileID: 11400000, guid: 10a07b431d9f65a4f986c15e5364162e, type: 2}
+  - {fileID: 11400000, guid: 1479ad76d22f26c4990e702e37683697, type: 2}
+  - {fileID: 11400000, guid: 9dcbb99a8adf84b439ca59c6c19f1e4d, type: 2}
+  - {fileID: 11400000, guid: ed230b0cfdce34547b7bb2c141ff5046, type: 2}
+  - {fileID: 11400000, guid: 6e94da7aaff375d478052c9713e1fcf7, type: 2}
+  - {fileID: 11400000, guid: 5548783d1e4158144b232ab29c296c2e, type: 2}
+  - {fileID: 11400000, guid: 1c15437b26d089945a27d4b8dda902fd, type: 2}
+  - {fileID: 11400000, guid: 78ee3d8cf22774b4cad12656a28eee05, type: 2}
+  - {fileID: 11400000, guid: e4ecd9eb4a7d3194ba7e7ae5cdd5b7f9, type: 2}
   grassTile: {fileID: 11400000, guid: 530078aa83dbe264087c7cb016c84f05, type: 2}
   clusterCount: 100
   minClusterSize: 20
   maxClusterSize: 40
   clusterSpreadChance: 0.6
+  animationTime: 0.7
 --- !u!4 &1407371171
 Transform:
   m_ObjectHideFlags: 0
