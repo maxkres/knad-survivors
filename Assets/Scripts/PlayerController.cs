@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class PlayerController : MonoBehaviour
 {
@@ -7,6 +8,11 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5;
 
     private float prevMoveX = 1;
+
+    public Tilemap tilemap;
+
+    private Vector3 minBounds;
+    private Vector3 maxBounds;
 
     void Update()
     {
@@ -18,6 +24,21 @@ public class PlayerController : MonoBehaviour
 
         // Apply movement
         transform.Translate(movement * moveSpeed * Time.deltaTime);
+
+        BoundsInt cellBounds = tilemap.cellBounds;
+        Vector3 tileSize = tilemap.cellSize;
+        Vector3 tileBounds = new Vector3(tileSize.x, tileSize.y, 0);
+        minBounds = tilemap.CellToWorld(cellBounds.min) + tileBounds / 2;
+        maxBounds = tilemap.CellToWorld(cellBounds.max) + new Vector3(- tileSize.x / 2, 0, 0);
+
+        // Clamp the player's position within the Tilemap bounds
+        Vector3 clampedPosition = new Vector3(
+            Mathf.Clamp(transform.position.x, minBounds.x, maxBounds.x),
+            Mathf.Clamp(transform.position.y, minBounds.y, maxBounds.y),
+            transform.position.z // Keep Z-axis unchanged for 2D
+        );
+
+        transform.position = clampedPosition;
 
         // Animation
         if (!movement.Equals(Vector3.zero)) {

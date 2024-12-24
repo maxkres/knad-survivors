@@ -318,6 +318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 963010644}
+  orbitRadius: 1.8
 --- !u!212 &530752390
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -507,6 +508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyAnimator: {fileID: 963010646}
   moveSpeed: 5
+  tilemap: {fileID: 1743378315}
 --- !u!95 &963010646
 Animator:
   serializedVersion: 7
