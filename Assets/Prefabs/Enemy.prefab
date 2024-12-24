@@ -57,7 +57,7 @@ MonoBehaviour:
   maxHP: 0
   damage: 0
   knockbackForce: 10
-  speed: 1
+  speed: 2
   baseHP: 10
   maxBaseHP: 20
   hpMultiplier: 5
@@ -145,8 +145,8 @@ MonoBehaviour:
   audioSourceB: {fileID: -8926045977028716952}
   audioSourceC: {fileID: 4251953763415905071}
   deathSound: {fileID: 8300000, guid: 0f1b5326ee457e84781b803e0bd5371c, type: 3}
-  minInterval: 5
-  maxInterval: 10
+  minInterval: 10
+  maxInterval: 60
 --- !u!82 &-8605929458243028591
 AudioSource:
   m_ObjectHideFlags: 0
