@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 4486b1c8eb8abfe4ab03c16f83714453
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2464845074232107077
+    second: loboda_bat_0
+  - first:
+      213: -6702628379120469539
+    second: loboda_bat_1
+  - first:
+      213: -3123728488885939595
+    second: loboda_bat_2
+  - first:
+      213: -7572505052138624052
+    second: loboda_bat_3
+  - first:
+      213: 5945570922094059262
+    second: loboda_bat_4
+  - first:
+      213: -6101171492431713027
+    second: loboda_bat_5
+  - first:
+      213: -5706482279561756659
+    second: loboda_bat_6
+  - first:
+      213: -2511228008535020152
+    second: loboda_bat_7
+  - first:
+      213: 6938135136570164869
+    second: loboda_bat_8
+  - first:
+      213: 9047777636118764921
+    second: loboda_bat_9
+  - first:
+      213: 5281185047606631514
+    second: loboda_bat_10
+  - first:
+      213: -8038062766517627579
+    second: loboda_bat_11
+  - first:
+      213: -5764256412310895833
+    second: loboda_bat_12
+  - first:
+      213: 6024829712885720316
+    second: loboda_bat_13
+  - first:
+      213: 5416122825358648480
+    second: loboda_bat_14
+  - first:
+      213: 6335884517115088634
+    second: loboda_bat_15
+  - first:
+      213: -2994474367226215486
+    second: loboda_bat_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: loboda_bat_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 158
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf160cd67c1bcdd0800000000000000
+      internalID: -2464845074232107077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 157
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd97211500b7bf2a0800000000000000
+      internalID: -6702628379120469539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 156
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5729f255d7946a4d0800000000000000
+      internalID: -3123728488885939595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 154
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb2d63a6ce09e690800000000000000
+      internalID: -7572505052138624052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 105
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efede4ea049e28250800000000000000
+      internalID: 5945570922094059262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 110
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc2edf5ad8445ba0800000000000000
+      internalID: -6101171492431713027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 111
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0009a9d9908ec0b0800000000000000
+      internalID: -5706482279561756659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_7
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 110
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d22496e63562dd0800000000000000
+      internalID: -2511228008535020152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 61
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586cbea9525394060800000000000000
+      internalID: 6938135136570164869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 63
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d1597a2d9209d70800000000000000
+      internalID: 9047777636118764921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 9
+        width: 28
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c92b3e1d98a4940800000000000000
+      internalID: 5281185047606631514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 59
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5455c675080137090800000000000000
+      internalID: -8038062766517627579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72301f5555f3100b0800000000000000
+      internalID: -5764256412310895833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_13
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 17
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4a5c4f3be7c9350800000000000000
+      internalID: 6024829712885720316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 8
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a42369830fe92b40800000000000000
+      internalID: 5416122825358648480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 11
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afeca8c36659de750800000000000000
+      internalID: 6335884517115088634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loboda_bat_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 6
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3087cad6d7176d0800000000000000
+      internalID: -2994474367226215486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      loboda_bat_0: -2464845074232107077
+      loboda_bat_1: -6702628379120469539
+      loboda_bat_10: 5281185047606631514
+      loboda_bat_11: -8038062766517627579
+      loboda_bat_12: -5764256412310895833
+      loboda_bat_13: 6024829712885720316
+      loboda_bat_14: 5416122825358648480
+      loboda_bat_15: 6335884517115088634
+      loboda_bat_16: -2994474367226215486
+      loboda_bat_2: -3123728488885939595
+      loboda_bat_3: -7572505052138624052
+      loboda_bat_4: 5945570922094059262
+      loboda_bat_5: -6101171492431713027
+      loboda_bat_6: -5706482279561756659
+      loboda_bat_7: -2511228008535020152
+      loboda_bat_8: 6938135136570164869
+      loboda_bat_9: 9047777636118764921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

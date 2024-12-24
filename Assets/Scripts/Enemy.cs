@@ -64,7 +64,8 @@ public class Enemy : MonoBehaviour
         hp -= amount;
         if (hp <= 0)
         {
-            Destroy(gameObject);
+            // Destroy(gameObject);
+            GetComponent<Animator>().SetTrigger("die");
             EnemySpawner.spawnedEnemies -= 1;
             PlayerStats.AddXP((maxHP + damage) * 2); 
         }
