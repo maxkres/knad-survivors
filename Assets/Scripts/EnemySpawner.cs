@@ -49,5 +49,4 @@ public class EnemySpawner : MonoBehaviour
 
         spawnedEnemies++;
     }
-
 }
