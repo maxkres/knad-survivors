@@ -11,16 +11,26 @@ public class Enemy : MonoBehaviour
 
     public float speed = 1f;
 
+    public int baseHP = 10;
+    public int maxBaseHP = 20;
+
+    public float hpMultiplier = 5;
+
+    public int baseDamage = 5;
+    public int maxBaseDamage = 15;
+
+    public float damageMultiplier = 3;
+
     private Transform player;
 
-    public float playerKnockbackThreshold = 0.2f;
+    public float playerKnockbackThreshold = 0.3f;
 
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
-        hp = UnityEngine.Random.Range(10, 20) + PlayerStats.lvl * 2;
+        hp = UnityEngine.Random.Range(baseHP, maxBaseHP) + (int) (PlayerStats.lvl * hpMultiplier);
         maxHP = hp;
-        damage = UnityEngine.Random.Range(5, 10) + PlayerStats.lvl;
+        damage = UnityEngine.Random.Range(baseDamage, maxBaseDamage) + (int) (PlayerStats.lvl * damageMultiplier);
     }
 
     void Update()
@@ -48,18 +58,6 @@ public class Enemy : MonoBehaviour
             }
         }
     }
-
-    // void OnTriggerEnter2D(Collider2D collision)
-    // {
-    //     Debug.Log(collision);
-    //     if (collision.CompareTag("Player") && collision.GetComponent<Rigidbody2D>().linearVelocity.Equals(Vector3.zero))
-    //     {
-    //         PlayerStats.TakeDamage(damage);
-
-    //         Vector3 knockbackDirection = (collision.transform.position - transform.position).normalized;
-    //         collision.GetComponent<Rigidbody2D>().AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
-    //     }
-    // }
 
     public void TakeDamage(int amount)
     {

@@ -7,6 +7,10 @@ public class LVLUPController : MonoBehaviour
     public Button hpButton;
     public Button attackButton;
 
+    public int maxHPGain = 20;
+    public int attackGain = 10;
+    public int speedGain = 2;
+
     public static LVLUPController instance;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -25,17 +29,17 @@ public class LVLUPController : MonoBehaviour
     }
 
     private void hpUP() {
-        PlayerStats.GainMaxHP(20);
+        PlayerStats.GainMaxHP(maxHPGain);
         gameObject.SetActive(false);
     }
 
     private void attackUP() {
-        PlayerStats.baseAttack += 10;
+        PlayerStats.baseAttack += attackGain;
         gameObject.SetActive(false);
     }
 
     private void speedUP() {
-        PlayerStats.speed += 1;
+        PlayerStats.speed += speedGain;
         gameObject.SetActive(false);
     }
 

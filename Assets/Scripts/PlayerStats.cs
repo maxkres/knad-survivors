@@ -13,6 +13,8 @@ public class PlayerStats : MonoBehaviour
     public static int baseAttack = 0;
     public static int speed = 5;
 
+    public static int nextLvlUp = (int) (Math.Pow(lvl, 2) * 100);
+
     public static void TakeDamage(int damage)
     {
         hp -= damage;
@@ -26,9 +28,9 @@ public class PlayerStats : MonoBehaviour
     public static void AddXP(int amount)
     {
         xp += amount;
-        if (xp >= Math.Pow(lvl, 2) * 1000)
+        if (xp >= nextLvlUp)
         {
-            xp -= (int)Math.Pow(lvl, 2) * 1000;
+            xp -= nextLvlUp;
             LevelUp();
         }
     }
@@ -36,7 +38,7 @@ public class PlayerStats : MonoBehaviour
     private static void LevelUp()
     {
         lvl++;
-        maxHp += 10;
+        nextLvlUp = (int) (Math.Pow(lvl, 2) * 100);
         hp = maxHp;
         LVLUPController.instance.lvlup();
         UnityEngine.Debug.Log("Level Up! New level: " + lvl);

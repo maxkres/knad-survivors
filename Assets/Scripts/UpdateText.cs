@@ -18,6 +18,6 @@ public class UpdateText : MonoBehaviour
     {
         hpText.text = "HP: " + PlayerStats.hp;
         lvlText.text = "LVL: " + PlayerStats.lvl;
-        xpText.text = "XP: " + PlayerStats.xp + "/" + ((int)Math.Pow(PlayerStats.lvl, 2) * 1000);
+        xpText.text = "XP: " + PlayerStats.xp + "/" + PlayerStats.nextLvlUp;
     }
 }

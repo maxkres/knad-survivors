@@ -41,11 +41,11 @@ public class EnemySpawner : MonoBehaviour
 
         GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
 
-        Enemy enemyScript = enemy.GetComponent<Enemy>();
-        if (enemyScript != null)
-        {
-            enemyScript.InitializeEnemy();
-        }
+        // Enemy enemyScript = enemy.GetComponent<Enemy>();
+        // if (enemyScript != null)
+        // {
+        //     enemyScript.InitializeEnemy();
+        // }
 
         spawnedEnemies++;
     }
