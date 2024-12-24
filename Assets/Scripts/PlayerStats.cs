@@ -1,6 +1,7 @@
 using System;
 using System.Diagnostics;
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
@@ -9,6 +10,8 @@ public class PlayerStats : MonoBehaviour
     public static int maxHp = 100;
     public static int lvl = 1;
     public static int xp = 0;
+    public static int baseAttack = 0;
+    public static int speed = 5;
 
     public static void TakeDamage(int damage)
     {
@@ -35,6 +38,7 @@ public class PlayerStats : MonoBehaviour
         lvl++;
         maxHp += 10;
         hp = maxHp;
+        LVLUPController.instance.lvlup();
         UnityEngine.Debug.Log("Level Up! New level: " + lvl);
     }
 
@@ -45,6 +49,11 @@ public class PlayerStats : MonoBehaviour
         {
             hp = maxHp;
         }
+    }
+
+    public static void GainMaxHP(int amount) {
+        maxHp += amount;
+        hp = maxHp;
     }
 
     void Update()

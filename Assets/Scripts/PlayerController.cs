@@ -6,8 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     public Animator bodyAnimator;
 
-    public float moveSpeed = 5;
-
     private float prevMoveX = 1;
 
     public Tilemap tilemap;
@@ -32,7 +30,7 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movement = new Vector3(moveX, moveY, 0f).normalized;
 
-        transform.Translate(movement * moveSpeed * Time.deltaTime);
+        transform.Translate(movement * PlayerStats.speed * Time.deltaTime);
 
         BoundsInt cellBounds = tilemap.cellBounds;
         Vector3 tileSize = tilemap.cellSize;
