@@ -13,7 +13,6 @@ public class LVLUPController : MonoBehaviour
 
     public static LVLUPController instance;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         instance = this;
@@ -43,7 +42,6 @@ public class LVLUPController : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
     }
