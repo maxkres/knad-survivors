@@ -21,7 +21,7 @@ public class PlayerStats : MonoBehaviour
         if (hp <= 0)
         {
             hp = 0;
-            UnityEngine.Debug.Log("Player is dead!");
+            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
     }
 
