@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
         {
             foreach (var sprite in GetComponentsInChildren<SpriteRenderer>())
             {
-                sprite.flipX = !sprite.flipX;
+                if (!sprite.transform.gameObject.name.Equals("Weapon")) sprite.flipX = !sprite.flipX;
             }
             prevMoveX = moveX;
         }
