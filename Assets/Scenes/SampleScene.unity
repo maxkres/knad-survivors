@@ -192,8 +192,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -435299213
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7145198348311737387, guid: cab0d5b63432d8242a933de10e0c8ffc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -734,7 +734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 963010644}
-  orbitRadius: 1.8
+  orbitRadius: 1
 --- !u!212 &530752390
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1321,11 +1321,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyAnimator: {fileID: 963010646}
   tilemap: {fileID: 1743378315}
-  bulletPrefab: {fileID: 8710962419399377862, guid: 8a3e483191d3b9a4480072d5a2fc12f2, type: 3}
+  bulletPrefab: {fileID: 3373340906876184124, guid: e8fef8da844374a4d8e3f8b5b88f6711, type: 3}
   bulletSpeed: 10
   bulletRange: 5
   shootAudioSource: {fileID: 0}
   shootClip: {fileID: 0}
+  bulletSpawnOffset: 1
 --- !u!95 &963010646
 Animator:
   serializedVersion: 7
@@ -1815,7 +1816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f7f753dc4df33144b233a60395934e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 3605140182882835160, guid: cdbd92984672c714dac83a2a5d5c6fee, type: 3}
+  enemyPrefab: {fileID: 3605140182882835160, guid: e8a001a1b67b8134d872dc19bca273a8, type: 3}
   baseCount: 10
   spawnInterval: 2
   spawnAreaMin: {x: 14, y: 14}
