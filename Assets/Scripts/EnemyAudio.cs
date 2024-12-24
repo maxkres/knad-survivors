@@ -17,7 +17,6 @@ public class EnemyAudio : MonoBehaviour
     private float timer;
     private Vector3 lastPosition;
 
-    // Tracks if the application (or scene) is quitting
     private static bool isQuitting;
 
     void OnApplicationQuit()
@@ -51,7 +50,6 @@ public class EnemyAudio : MonoBehaviour
 
     void OnDestroy()
     {
-        // If the app (or scene) is quitting, do nothing here
         if (isQuitting) return;
 
         if (deathSound != null)
