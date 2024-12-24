@@ -74,8 +74,9 @@ public class Enemy : MonoBehaviour
     public void InitializeEnemy()
     {
         player = GameObject.FindWithTag("Player").transform;
-        hp = UnityEngine.Random.Range(10, 20) + PlayerStats.lvl * 2;
-        damage = UnityEngine.Random.Range(5, 10) + PlayerStats.lvl;
+        hp = UnityEngine.Random.Range(baseHP, maxBaseHP) + (int)(PlayerStats.lvl * hpMultiplier);
+        maxHP = hp;
+        damage = UnityEngine.Random.Range(baseDamage, maxBaseDamage) + (int)(PlayerStats.lvl * damageMultiplier);
 
         // UnityEngine.Debug.Log($"Enemy initialized with HP: {hp}, Damage: {damage}");
     }

@@ -1819,7 +1819,7 @@ MonoBehaviour:
   baseCount: 10
   spawnInterval: 2
   spawnAreaMin: {x: 14, y: 14}
-  spawnAreaMax: {x: 25, y: 25}
+  spawnAreaMax: {x: 94, y: 94}
 --- !u!1 &1466612589
 GameObject:
   m_ObjectHideFlags: 0
