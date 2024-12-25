@@ -28,17 +28,17 @@ public class LVLUPController : MonoBehaviour
     }
 
     private void hpUP() {
-        PlayerStats.GainMaxHP(maxHPGain);
+        PlayerStats.instance.GainMaxHP(maxHPGain);
         gameObject.SetActive(false);
     }
 
     private void attackUP() {
-        PlayerStats.baseAttack += attackGain;
+        PlayerStats.instance.baseAttack += attackGain;
         gameObject.SetActive(false);
     }
 
     private void speedUP() {
-        PlayerStats.speed += speedGain;
+        PlayerStats.instance.speed += speedGain;
         gameObject.SetActive(false);
     }
 

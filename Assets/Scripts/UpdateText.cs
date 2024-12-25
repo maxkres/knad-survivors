@@ -16,8 +16,8 @@ public class UpdateText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        hpText.text = "HP: " + PlayerStats.hp;
-        lvlText.text = "LVL: " + PlayerStats.lvl;
-        xpText.text = "XP: " + PlayerStats.xp + "/" + PlayerStats.nextLvlUp;
+        hpText.text = "HP: " + PlayerStats.instance.hp;
+        lvlText.text = "LVL: " + PlayerStats.instance.lvl;
+        xpText.text = "XP: " + PlayerStats.instance.xp + "/" + PlayerStats.instance.nextLvlUp;
     }
 }

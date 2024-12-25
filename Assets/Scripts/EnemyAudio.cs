@@ -11,8 +11,8 @@ public class EnemyAudio : MonoBehaviour
     [SerializeField] private AudioClip deathSound;
 
     [Header("Random Interval Range (Seconds)")]
-    [SerializeField] private float minInterval = 5f;
-    [SerializeField] private float maxInterval = 10f;
+    [SerializeField] private float minInterval = 2f;
+    [SerializeField] private float maxInterval = 5f;
 
     private float timer;
     private Vector3 lastPosition;

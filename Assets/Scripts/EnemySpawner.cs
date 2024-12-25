@@ -22,7 +22,7 @@ public class EnemySpawner : MonoBehaviour
     {
         while (true)
         {
-            int enemyCount = baseCount * PlayerStats.lvl;
+            int enemyCount = baseCount * PlayerStats.instance.lvl;
 
             if (spawnedEnemies < enemyCount)
             {
