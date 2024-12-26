@@ -28,9 +28,9 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
-        hp = UnityEngine.Random.Range(baseHP, maxBaseHP) + (int) (PlayerStats.lvl * hpMultiplier);
+        hp = UnityEngine.Random.Range(baseHP, maxBaseHP) + (int) (PlayerStats.instance.lvl * hpMultiplier);
         maxHP = hp;
-        damage = UnityEngine.Random.Range(baseDamage, maxBaseDamage) + (int) (PlayerStats.lvl * damageMultiplier);
+        damage = UnityEngine.Random.Range(baseDamage, maxBaseDamage) + (int) (PlayerStats.instance.lvl * damageMultiplier);
     }
 
     void Update()
@@ -49,7 +49,7 @@ public class Enemy : MonoBehaviour
             if (collision.CompareTag("Player")) {
                 if (collision.GetComponent<Rigidbody2D>().linearVelocity.magnitude <= playerKnockbackThreshold)
                 {
-                    PlayerStats.TakeDamage(damage);
+                    PlayerStats.instance.TakeDamage(damage);
 
                     Vector3 knockbackDirection = (collision.transform.position - transform.position).normalized;
                     collision.GetComponent<Rigidbody2D>().linearVelocity.Set(0, 0);
@@ -67,16 +67,16 @@ public class Enemy : MonoBehaviour
             // Destroy(gameObject);
             GetComponent<Animator>().SetTrigger("die");
             EnemySpawner.spawnedEnemies -= 1;
-            PlayerStats.AddXP((maxHP + damage) * 2); 
+            PlayerStats.instance.AddXP((maxHP + damage) * 2); 
         }
     }
 
     public void InitializeEnemy()
     {
         player = GameObject.FindWithTag("Player").transform;
-        hp = UnityEngine.Random.Range(baseHP, maxBaseHP) + (int)(PlayerStats.lvl * hpMultiplier);
+        hp = UnityEngine.Random.Range(baseHP, maxBaseHP) + (int)(PlayerStats.instance.lvl * hpMultiplier);
         maxHP = hp;
-        damage = UnityEngine.Random.Range(baseDamage, maxBaseDamage) + (int)(PlayerStats.lvl * damageMultiplier);
+        damage = UnityEngine.Random.Range(baseDamage, maxBaseDamage) + (int)(PlayerStats.instance.lvl * damageMultiplier);
 
         // UnityEngine.Debug.Log($"Enemy initialized with HP: {hp}, Damage: {damage}");
     }

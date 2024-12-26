@@ -15,7 +15,6 @@ public class PlaceProps : MonoBehaviour
         for (int i = 0; i < 100; i++) {
             for (int j = 0; j < 100; j++) {
                 if (Random.Range(0, 1f) <= propFill) {
-                    Debug.Log(i + " " + j);
                     tilemap.SetTile(new Vector3Int(i, j, 0), tiles[Random.Range(0, tiles.Length)]);
                 }
             }

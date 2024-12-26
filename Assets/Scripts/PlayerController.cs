@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         float moveY = Input.GetAxis("Vertical");
         Vector3 movement = new Vector3(moveX, moveY, 0f).normalized;
 
-        transform.Translate(movement * PlayerStats.speed * Time.deltaTime);
+        transform.Translate(movement * PlayerStats.instance.speed * Time.deltaTime);
 
         BoundsInt cellBounds = tilemap.cellBounds;
         Vector3 tileSize = tilemap.cellSize;
