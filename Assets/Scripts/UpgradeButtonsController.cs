@@ -29,7 +29,7 @@ public class UpgradeButtonsController : MonoBehaviour
         instance = this;
 
         foreach (Transform child in transform) {
-            UpdateSprites(child.name, "empty", child);
+            if (!child.name.Equals("Background")) UpdateSprites(child.name, "empty", child);
         }
 
         TurnButtons(false);
@@ -82,10 +82,10 @@ public class UpgradeButtonsController : MonoBehaviour
     }
 
     public void UpgradeSpeed() {
-        if (ProceedUpgrade("speed")) PlayerStats.instance.baseAttack += attackGain;
+        if (ProceedUpgrade("speed")) PlayerStats.instance.speed += speedGain;
     }
 
     public void UpgradeAttack() {
-        if (ProceedUpgrade("attack")) PlayerStats.instance.speed += speedGain;
+        if (ProceedUpgrade("attack")) PlayerStats.instance.baseAttack += attackGain;
     }
 }
